@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+p {
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    background-color: #7c7a79;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+}
+
+
+/*=====================================================================*/
+
+.avatar {
+    background-color: #263238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 260px;
+    margin-left: 12rem;
+}
+
+.avatar img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100rem;
+    margin-top: 2rem;
+}
+
+.avatar .avatar__text {
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.avatar .avatar__text h2 {
+    font-size: 2.2rem;
+}
+
+.avatar .avatar__text p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.info {
+    background-color: #37474F;
+    width: 260px;
+    margin-left: 12rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+
+}
+
+.info .birth, .sex, .phone, .email, .address, .facebook {
+    display: flex;
+    align-items: center;
+}
+
+.info i {
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #7c7a79;
+    height: 23px;
+    width: 23px;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info p {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+    margin-left: 3px;
+    width: 240px;
+    
+}
+
+.info h3 {
+    color: #fff;
+    font-weight: 700;
+    padding: 1.6rem 0;
+    font-size: 1.9rem;
+}
+
+.info ul.info__list {
+    
+}
+
+.info li {
+    color: #fff;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    list-style-type: circle;
+    margin-left: 3rem;
+}
+
+.content {
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+    background-color: #fff;
+}
+
+.content .content__title {
+    display: flex;
+    align-items: center;
+}
+
+.content .content__sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content h3 {
+    color: #263238;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2rem 0;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.content h4 {
+    color: #414142;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.content p {
+    color: #414142;
+    font-size: 1.5rem;
+}
+
+.content i {
+    font-size: 2.5rem;
+    background-color: #263238;
+    height: 45px;
+    width: 45px;
+    color: #fff;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
